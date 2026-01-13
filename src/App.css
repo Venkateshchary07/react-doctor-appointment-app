@@ -1,0 +1,120 @@
+body{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  color: black;
+}
+input,select{
+  height:30px;
+  width: 20rem;
+  background-color: white;
+  color: black;
+  border-radius: 4px;
+  border: 1px solid lightgrey;
+}
+.form-container{
+  
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 30px;
+  color:black;
+}
+select{
+  height: 33px;
+  width: 20.3rem;
+}
+#book-btn{
+  background-color:#28a745;
+  border: 1px solid lightgrey;
+  padding: 10px;
+  border-radius: 8px;
+  color: white;
+}
+input:focus {
+  outline: none;
+  border: 2px solid lightblue;
+  box-shadow: 0 0 5px lightblue;
+  background-color: white;
+  color: black;
+}
+.toast-message{
+  height: 20vh;
+  width: 30%;
+  padding: 40px;
+  border-radius: 10px;
+  border:0.5px solid grey;
+  background-color: white;
+  position: fixed;
+  margin:0px 18%;
+  z-index: 200;
+  box-shadow: 2px 3px 2px lightgrey;
+  /* display: none; */
+}
+.toast-btns{
+     height: 35px;
+     width: 80px;
+     padding: 10px;
+     border-radius: 8px;
+     color: white;
+     margin: 2px;
+     float: right;
+     margin-top: 10%;
+     margin-right: 10px;
+     
+}
+.table{
+   background-color: white;
+   border-collapse: collapse;
+   margin:2% 0%;
+}
+th{
+    background-color:white;
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+    color:black;
+    padding: 15px 30px;
+    border-collapse:collapse ;
+
+}
+th{
+    height: 5vh;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgrey;
+    text-align: center;
+}
+td{
+    height: auto;
+    width: 20%;
+    border-bottom: 1px solid lightgrey;
+    text-align: center;
+    padding: 1%;
+}
+
+.edit-btn,.delete-btn{
+  height: 40px;
+  width: 90px;
+  background-color:rgb(180, 19, 19);
+  color: white;
+  margin: 2px;
+ 
+}
+.update-acbtn{
+  background-color: blue;
+}
+.action-btn{
+  background-color: white;
+  height: auto;
+  width: auto;
+  border: 1px solid grey;
+  z-index: 1000;
+}
+button{
+  border: none;
+}
+.consult-btn{
+     height: 35px;
+     width: auto;
+     padding: 10px;
+     border-radius: 8px;
+     color: white;
+}
